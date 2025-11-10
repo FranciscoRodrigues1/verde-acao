@@ -29,14 +29,60 @@ header{
         width: 50%; //Com o inline, ele não aceita tamanhos.
         display: inline-block; // Deixa namesma linha,epermite o controle de largura e altura
         text-align: end;
-        padding: 10px;
+        padding: 30px;
         }
 
     a{
         color: #FFFFFF;
         font-weight: bold;
         margin-left: 50px;
-        font-size: 30px;
+        margin-bottom: 50px;
+        font-size: 24px;
         text-decoration:none;
+    }
+}
+
+.background{
+    //border: solid 2px red;
+    height: 80vh;
+    background-image: url(./assets/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+
+    h1{
+        //border: solid 2px goldenrod;
+        display: inline-block;
+        //background-color: aqua;
+        font-family: "Sansita Swashed";
+        font-size: 5rem;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    p{
+        //border: solid 2px aquamarine;
+        //background-color: orchid;
+        width: 50%;
+        height: 56px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 320px;
+        font-size: 20px;
+    }
+
+    button{
+        border: none;
+        height: 90px;
+        width: 400px;
+        font-size: 30px;
+        border-radius: 50px;
+        background-color: #66BB6A;
+        color: #FFFFFF;
+        font-weight: 700;
+        padding: 15px;
+        margin-top: 30px;
     }
 }

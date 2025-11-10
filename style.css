@@ -23,12 +23,50 @@ header nav {
   width: 50%;
   display: inline-block;
   text-align: end;
-  padding: 10px;
+  padding: 30px;
 }
 header a {
   color: #FFFFFF;
   font-weight: bold;
   margin-left: 50px;
-  font-size: 30px;
+  margin-bottom: 50px;
+  font-size: 24px;
   text-decoration: none;
+}
+
+.background {
+  height: 80vh;
+  background-image: url(./assets/Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 100px;
+}
+.background h1 {
+  display: inline-block;
+  font-family: "Sansita Swashed";
+  font-size: 5rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.background p {
+  width: 50%;
+  height: 56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 320px;
+  font-size: 20px;
+}
+.background button {
+  border: none;
+  height: 90px;
+  width: 400px;
+  font-size: 30px;
+  border-radius: 50px;
+  background-color: #66BB6A;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
