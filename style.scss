@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #66BB6A;
+    //border: solid 2px red;
+    height: 20vh;
+    
+
+    h2{
+        //border: solid 2px black;
+        font-family: "Sansita Swashed", sans-serif;
+        color: #FFFFFF;
+        display: inline-block;
+        width: 40%;
+        padding-left: 200px;
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    nav{
+        //border: solid  2px violet;
+        width: 50%; //Com o inline, ele não aceita tamanhos.
+        display: inline-block; // Deixa namesma linha,epermite o controle de largura e altura
+        text-align: end;
+        padding: 10px;
+        }
+
+    a{
+        color: #FFFFFF;
+        font-weight: bold;
+        margin-left: 50px;
+        font-size: 30px;
+        text-decoration:none;
+    }
+}
