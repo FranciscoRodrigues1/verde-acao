@@ -86,19 +86,22 @@ header{
         margin-top: 30px;
     }
 }
-.cards {
+
+*.cards {
     background-color: #F1F8E9;
     height: 80vh;
+    border: solid 5px blue;
+    
 }
 
 .card {
-    //border: solid red;
+    border: solid red;
     width: 20vw;
-    height: 60vh;
+    height: 70vh;
     background-color: #FFFFFF;
     border-radius: 20px;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 40px;
     text-align: center;
 
@@ -110,12 +113,12 @@ header{
     h3 {
         margin-top: 20px;
         font-size: 1.75rem;
-        font-weight: 700;
+        font-weight: bold;
     }
 
     p {
         margin-top: 20px;
-        font-weight: 400;
+        font-size: 1.3rem;
     }
 
     button {
@@ -127,5 +130,31 @@ header{
         border: none;
         font-size: 1.25rem;
         border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+.formularios{
+    border:  solid 4px red;
+    height: 100vh;
+    display: block;
+
+    h4{
+        background-color: aqua;
+        font-size: 3rem;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    p{
+        background-color: yellowgreen;
+        display: inline-block;
+    }
+
+    form{
+        background-color: #66bb6a;
+        display: inline-block;
+        height: 60vh;
     }
 }
