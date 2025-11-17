@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -74,11 +75,9 @@ header a {
 *.cards {
   background-color: #F1F8E9;
   height: 80vh;
-  border: solid 5px blue;
 }
 
 .card {
-  border: solid red;
   width: 20vw;
   height: 70vh;
   background-color: #FFFFFF;
@@ -115,22 +114,72 @@ header a {
 }
 
 .formularios {
-  border: solid 4px red;
-  height: 100vh;
-  display: block;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  padding-left: 30%;
+  background-color: #E8F5E9;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 .formularios h4 {
-  background-color: aqua;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   display: inline-block;
+  margin-top: 20px;
 }
 .formularios p {
-  background-color: yellowgreen;
   display: inline-block;
+  width: 50vw;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #767676;
 }
 .formularios form {
-  background-color: #66bb6a;
   display: inline-block;
-  height: 60vh;
+  height: 80vh;
+  width: 40vw;
+  align-items: start;
+  padding: 20px;
+  text-align: start;
+  margin-top: 20px;
+}
+.formularios form input {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px 10px;
+  font-size: 15px;
+  border-radius: 60px;
+  border-style: none;
+}
+.formularios form label {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 10px 10px 0px;
+}
+.formularios form button {
+  color: #FFFFFF;
+  background-color: #66BB6A;
+  border-radius: 25px;
+  width: 100%;
+  height: 60px;
+  border-style: none;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #66BB6A;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
