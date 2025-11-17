@@ -73,6 +73,7 @@ header a {
 }
 
 *.cards {
+  font-family: "Roboto", sans-serif;
   background-color: #F1F8E9;
   height: 80vh;
 }
@@ -86,6 +87,7 @@ header a {
   margin-top: 15px;
   margin-left: 40px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 .card img {
   width: 100%;
